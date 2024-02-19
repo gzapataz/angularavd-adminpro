@@ -1,1 +1,24 @@
-<p>graphic1 works!</p>
+<div class="row">
+  <div class="col-6">
+    <app-dona title="Sales"></app-dona>
+  </div>
+
+  <div class="col-6">
+    <app-dona 
+        title="Revenue"
+        [doughnutChartLabels]="doughnutChartLabels"
+        [doughnutChartData]="doughnutChartData"></app-dona>
+  </div>
+
+</div>
+
+<div class="row">
+  <div class="col-6">
+    <app-dona title="Costs"></app-dona>
+  </div>
+
+  <div class="col-6">
+    <app-dona title="Expenditures"></app-dona>
+  </div>
+
+</div>
