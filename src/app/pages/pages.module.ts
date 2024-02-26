@@ -10,6 +10,8 @@ import { ProgressComponent } from './progress/progress.component';
 import { SharedModule } from '../shared/shared.module';
 import { AppRoutingModule } from '../app-routing.module';
 import { ComponentsModule } from '../components/components.module';
+import { PromisesComponent } from './promises/promises.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 
 
@@ -20,6 +22,8 @@ import { ComponentsModule } from '../components/components.module';
     Graphic1Component,
     PagesComponent,
     ProgressComponent,
+    PromisesComponent,
+    RxjsComponent,
   ],
   exports: [
     AccountSettingsComponent,

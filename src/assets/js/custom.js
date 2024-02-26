@@ -84,6 +84,7 @@ const initiateFunctionPage = () => {
         // ============================================================== 
         // Auto select left navbar
         // ============================================================== 
+        /* GZ to disable selected side menu item
         $(function() {
             var url = window.location;
             var element = $('ul#sidebarnav a').filter(function() {
@@ -98,6 +99,7 @@ const initiateFunctionPage = () => {
             }
     
         });
+        */
         // ============================================================== 
         //tooltip
         // ============================================================== 
